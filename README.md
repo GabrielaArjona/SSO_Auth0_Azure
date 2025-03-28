@@ -79,11 +79,26 @@ No actual web page is used for final redirection; we tested sign-ins using built
 ---
 
 ## Screenshots
-1. **Azure AD Non-Gallery**: SAML configuration (Identifier, Reply URL).  
-2. **Auth0 SAML2**: JSON snippet with audience, recipient, etc.  
-3. **Auth0 Logs**: Show a successful login for `greenretailtest@...`.  
-4. **Azure AD Sign-In Logs**: Displaying the user sign-in.  
-5. **Auth0 Sign-In**:The sign-in page.
+
+| Screenshot | Description |
+|------------|------------|
+| **Screenshot 1** | **Azure AD Non-Gallery**: SAML configuration (Identifier, Reply URL). |
+| **Screenshot 2** | **Auth0 SAML2**: JSON snippet with audience, recipient, etc.   |
+| **Screenshot 3** | **Auth0 Sign-In**:The sign-in page. |
+| **Screenshot 4** | **Auth0 Logs**: Show a successful login for `greenretailtest@...`.  |
+| **Screenshot 5** | **Azure AD Sign-In Logs**: Displaying the user sign-in.   |
+
+All images are located in this repo.
+
+<div style="display: flex; flex-direction: row;">
+  <img  style="margin-bottom: 10px;" src="https://github.com/GabrielaArjona/SSO_Auth0_Azure/blob/2eddbb12e05100b92f0e71beed93d6e0941e0385/Captura%20de%20pantalla%202025-03-27%20AzureSAML.png" alt="project" width="350" height="250">
+  <img  style="margin-bottom: 10px;" src="https://github.com/GabrielaArjona/SSO_Auth0_Azure/blob/2eddbb12e05100b92f0e71beed93d6e0941e0385/Captura%20de%20pantalla%202025-03-27%20Auth0SAML2.jpg" width="350" height="250">
+   <img  style="margin-bottom: 10px;" src="https://github.com/GabrielaArjona/SSO_Auth0_Azure/blob/2eddbb12e05100b92f0e71beed93d6e0941e0385/Captura%20de%20pantalla%202025-03-27%20LogInPage.jpg" width="350" height="200">
+   
+  <img  style="margin-bottom: 10px;" src="https://github.com/GabrielaArjona/SSO_Auth0_Azure/blob/2eddbb12e05100b92f0e71beed93d6e0941e0385/Captura%20de%20pantalla%202025-03-27%20Auth0Log.jpg" width="350" height="200">
+  <img  style="margin-bottom: 10px;" src="https://github.com/GabrielaArjona/SSO_Auth0_Azure/blob/2eddbb12e05100b92f0e71beed93d6e0941e0385/Captura%20de%20pantalla%202025-03-27%20AzureLog.jpg" width="450" height="200">
+
+</div>
 
 ---
 
@@ -93,3 +108,6 @@ No actual web page is used for final redirection; we tested sign-ins using built
 3. **No Production Redirect**: We used placeholders and tested with built-in endpoints for sign-in. This was purely a practice lab, not a production deployment.  
 4. **Auth0 & Azure AD Behavior**: Learned how Azure AD classifies sign-ins (interactive vs. non-interactive).  
 5. **Key Takeaway**: Even on free tiers, you can explore major SSO flows, gather logs, and understand the synergy between **IdP** (Auth0) and **SP** (Azure AD).
+
+---
+
